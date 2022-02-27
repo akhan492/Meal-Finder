@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 800px) {
+  .showMeals {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 700px) {
+  .showMeals {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .showMeals {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media (max-width: 500px) {
+  input[type='text'] {
+    width: 100%;
+  }
+
+  .showMeals {
+    grid-template-columns: 1fr;
+
+  }
+ .mealFinder input{
+    width: 50%;
+  }
+
+  .showMeals {
+    
+    height: fit-content;
+    width: fit-content;
+  }
+}
